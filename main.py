@@ -11,7 +11,7 @@ from parse import call_gpt_api
 st.title("AI Scraper")
 
 # Input URL
-url = st.text_input("Enter the URL to scrape")
+url = st.text_input("Enter the URL to scrape eg: https://example.com")
 
 # Initialize session state for query and response
 if "query" not in st.session_state:
